@@ -1,11 +1,13 @@
-package com.loocweather.app.model;
+package com.loocweather.app.db;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.loocweather.app.db.LoocWeatherOpenHelper;
+import com.loocweather.app.model.City;
+import com.loocweather.app.model.County;
+import com.loocweather.app.model.Province;
 
 import java.util.ArrayList;
 import java.util.List;
